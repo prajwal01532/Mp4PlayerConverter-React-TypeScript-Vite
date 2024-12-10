@@ -45,7 +45,7 @@ const upload = multer({
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/mediaconverter');
+mongoose.connect('mongodb+srv://prajwal01532:prajwal@mp4convertermp3.laay1.mongodb.net/?retryWrites=true&w=majority&appName=Mp4ConverterMp3');
 
 // Create a schema for converted files
 const convertedFileSchema = new mongoose.Schema({
